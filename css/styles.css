@@ -454,6 +454,23 @@ h4 {
     background-position: center;
 }
 
+.event-photo {
+    height: 240px;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    background-position: center;
+}
+
+#custom-photo-sizing {
+    width: 37% !important;
+}
+
 #Maam {
     height: 250px;
     width: 65%;
@@ -626,6 +643,7 @@ h4 {
 .description {
     font-size: 1.5em;
     padding-bottom: 5%;
+    text-align: center;
 }
 
 #upcomingEvents {
