@@ -39,6 +39,7 @@ h1 {
 
 .navbar {
     box-shadow: 0px 3px 5px 0px rgba(219, 219, 219, 1);
+    margin-bottom: 0 !important;
 }
 
 .navbar-brand a:hover,
@@ -173,7 +174,6 @@ h2 {
 }
 
 #myCarousel {
-    box-shadow: 0 0 20px orange;
     margin-bottom: 25px;
 }
 
@@ -205,7 +205,7 @@ h2 {
 }
 
 #team-tile {
-    background: url('../images/Team.png') no-repeat;
+    background: url('../images/team.png') no-repeat;
     background-position: center;
 }
 
@@ -239,66 +239,7 @@ h4 {
     font-size: 3em;
 }
 
-#EBSB_Day1 {
-    height: 240px;
-    width: 100%;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/EBSB_Day1_resized.jpeg') no-repeat;
-    background-position: center;
-}
-
-#EBSB_Day2 {
-    height: 240px;
-    width: 100%;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/EBSB_Day2_resized.jpeg') no-repeat;
-    background-position: center;
-}
-
-#EBSB_Day3 {
-    height: 240px;
-    width: 100%;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/EBSB_Day3_resized.jpeg') no-repeat;
-    background-position: center;
-}
-
-#Lohri1 {
-    height: 240px;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Lohri_Celebrations1_resized.jpeg') no-repeat;
-    background-position: center;
-}
-
-#Lohri2 {
-    height: 240px;
-    width: 65%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Lohri_Celebrations2_resized3.jpeg') no-repeat;
-    background-position: center;
-}
-
-#Sankranthi1 {
+.event-three-photo {
     height: 240px;
     width: 100%;
     margin-top: auto;
@@ -307,150 +248,6 @@ h4 {
     position: relative;
     border: 2px solid black;
     overflow: hidden;
-    background: url('../images/Sankranthi1_resized.jpeg') no-repeat;
-    background-position: center;
-}
-
-#Sankranthi2 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Sankranthi2_resized.jpeg') no-repeat;
-    background-position: center;
-}
-
-#Sankranthi3 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Sankranthi3_resized.jpeg') no-repeat;
-    background-position: center;
-}
-
-#Inauguration1 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Inauguration1_resized.png') no-repeat;
-    background-position: center;
-}
-
-#Inauguration2 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Inauguration2_resized.png') no-repeat;
-    background-position: center;
-}
-
-#Inauguration3 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Inauguration3_resized.png') no-repeat;
-    background-position: center;
-}
-
-#EthnicDay1 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Ethnic_Day1_resized.jpg') no-repeat;
-    background-position: center;
-}
-
-#EthnicDay2 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Ethnic_Day2_resized.jpg') no-repeat;
-    background-position: center;
-}
-
-#EthnicDay3 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Ethnic_Day3_resized.jpg') no-repeat;
-    background-position: center;
-}
-
-#Village1 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Gonglur_Village1_resized.jpg') no-repeat;
-    background-position: center;
-}
-
-#Village2 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Gonglur_Village2_resized.jpg') no-repeat;
-    background-position: center;
-}
-
-#Village3 {
-    height: 240px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Gonglur_Village3_resized.jpg') no-repeat;
     background-position: center;
 }
 
@@ -468,176 +265,7 @@ h4 {
 }
 
 #custom-photo-sizing {
-    width: 37% !important;
-}
-
-#Maam {
-    height: 250px;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url("../images/Rajalakshmi_Ma'am_resized.jpg") no-repeat;
-    background-position: center;
-}
-
-#Sir {
-    height: 250px;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/AbhishekKumar_Sir_resized.jpg') no-repeat;
-    background-position: center;
-}
-
-#Events1 {
-    height: 250px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Event1.png') no-repeat;
-    background-position: center;
-}
-
-#Events2 {
-    height: 250px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Event2.png') no-repeat;
-    background-position: center;
-}
-
-#Events3 {
-    height: 250px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Event3.png') no-repeat;
-    background-position: center;
-}
-
-#Content1 {
-    height: 250px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Content1.png') no-repeat;
-    background-position: center;
-}
-
-#Content2 {
-    height: 250px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Content2.png') no-repeat;
-    background-position: center;
-}
-
-#Content3 {
-    height: 250px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Content3.png') no-repeat;
-    background-position: center;
-}
-
-#Digital1 {
-    height: 250px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Digital1.png') no-repeat;
-    background-position: center;
-}
-
-#Digital2 {
-    height: 250px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Digital2.png') no-repeat;
-    background-position: center;
-}
-
-#Digital3 {
-    height: 250px;
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Digital3.png') no-repeat;
-    background-position: center;
-}
-
-#Overall {
-    height: 360px;
-    width: 30%;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Overall_original.png') no-repeat;
-}
-
-#Web {
-    height: 360px;
-    width: 30%;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    position: relative;
-    border: 2px solid black;
-    overflow: hidden;
-    background: url('../images/Web_original.png') no-repeat;
+    width: 37%;
 }
 
 .description {
@@ -663,12 +291,13 @@ h4 {
     bottom: 50%;
 }
 
-.Event_Headings {
+.event-headings {
     font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 2em;
     font-weight: bold;
     padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .sidebar {
@@ -853,36 +482,8 @@ h4 {
     #menu-tile,
     #specials-tile,
     #team-tile,
-    #EBSB_Day1,
-    #EBSB_Day2,
-    #EBSB_Day3,
-    #Lohri1,
-    #Lohri2,
-    #Sankranthi1,
-    #Sankranthi2,
-    #Sankranthi3,
-    #Inauguration1,
-    #Inauguration2,
-    #Inauguration3,
-    #EthnicDay1,
-    #EthnicDay2,
-    #EthnicDay3,
-    #Village1,
-    #Village2,
-    #Village3,
-    #Maam,
-    #Sir,
-    #Overall,
-    #Events1,
-    #Events2,
-    #Events3,
-    #Content1,
-    #Content2,
-    #Content3,
-    #Digital1,
-    #Digital2,
-    #Digital3,
-    #Web {
+    .event-photo,
+    .event-three-photo #custom-photo-sizing {
         width: 360px;
         margin: 0 auto 15px;
     }
@@ -933,36 +534,9 @@ h4 {
     #menu-tile,
     #specials-tile,
     #team-tile,
-    #EBSB_Day1,
-    #EBSB_Day2,
-    #EBSB_Day3,
-    #Lohri1,
-    #Lohri2,
-    #Sankranthi1,
-    #Sankranthi2,
-    #Sankranthi3,
-    #Inauguration1,
-    #Inauguration2,
-    #Inauguration3,
-    #EthnicDay1,
-    #EthnicDay2,
-    #EthnicDay3,
-    #Village1,
-    #Village2,
-    #Village3,
-    #Maam,
-    #Sir,
-    #Overall,
-    #Events1,
-    #Events2,
-    #Events3,
-    #Content1,
-    #Content2,
-    #Content3,
-    #Digital1,
-    #Digital2,
-    #Digital3,
-    #Web {
+    .event-photo,
+    .event-three-photo,
+    #custom-photo-sizing {
         width: 250px;
         margin: 0 auto 15px;
     }
