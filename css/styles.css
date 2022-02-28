@@ -195,17 +195,17 @@ h2 {
 }
 
 #menu-tile {
-    background: url('../images/AboutEBSB_2.png') no-repeat;
+    background: url('../images/index-about-shortcut.png') no-repeat;
     background-position: center;
 }
 
 #specials-tile {
-    background: url('../images/Lohri_Celebrations2_Fire.jpeg') no-repeat;
+    background: url('../images/events/lohri/2.jpeg') no-repeat;
     background-position: center;
 }
 
 #team-tile {
-    background: url('../images/team.png') no-repeat;
+    background: url('../images/team_images/old-team.png') no-repeat;
     background-position: center;
 }
 
